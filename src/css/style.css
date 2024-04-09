@@ -1,0 +1,80 @@
+html{
+    background-color: #121813;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-family: "Paytone One", sans-serif;
+}
+
+
+
+.caixa-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img{
+    height: 50px;
+    width: auto;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    
+}
+
+.container-login{
+    border: 1px solid #292b1d;
+    padding: 50px;
+    border-radius: 12px;
+    background-color: #292B1D;
+    
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+    
+}
+
+.info p{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.info a{
+    color:white;
+}
+
+.info input{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding: 25px;
+    background-color: #121813;
+    color: white;
+    border-style: none;
+    font-size: 20px;
+}
+
+
+
+input[type="submit"]{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+
+}
